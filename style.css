@@ -1,0 +1,250 @@
+body {
+    background-color:#ADD8e6;
+    font-family: sans-serif;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 15%, 15%, 15%, 15%;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+}
+.create-account-form
+{
+    padding: 2.5rem;
+    width: 109%;
+    max-width: 28rem;
+    border-bottom-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    background-color: #ffffff;
+    display: block;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    line-height: 1.5;
+    color: -internal-root-color;
+}
+.logo
+{
+    margin-bottom: 2.5rem;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-style: solid;
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+
+}
+.h1
+{
+    font-size: 1.5rem;
+    color: #083e9e;
+    text-align: center;
+    font-weight: 700;
+    font-family: U8,sans-serif;
+    margin: 0;
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+}
+.p
+{
+    font-size: .875rem;
+    color: #4a5568;
+    text-align: center;
+    font-family: Karla,sans-serif;
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+}
+.input-box
+{
+    background-color:rgb(237, 242, 247);
+    border-bottom-color:rgb(226, 232, 240);
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-bottom-style:solid;
+    border-bottom-width:0px;
+    border-image-outset:0px;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-left-color:rgb(226, 232, 240);
+    border-left-style:solid;
+    border-left-width:0px;
+    border-right-color:rgb(226, 232, 240);
+    border-right-style:solid;
+    border-right-width:0px;
+    border-top-color:rgb(226, 232, 240);
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-top-style:solid;
+    border-top-width:0px;
+    box-sizing:border-box;
+    color:rgb(26, 32, 44);
+    cursor:text;
+    display:block;
+    font-family:-apple-system, BlinkMacSystemFont, "segoe ui", Roboto, "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+    font-size:16px;
+    font-stretch:100%;
+    font-style:normal;
+    font-variant-caps:normal;
+    font-variant-east-asian:normal;
+    font-variant-ligatures:normal;
+    font-variant-numeric:normal;
+    font-weight:400;
+    height:56px;
+    letter-spacing:normal;
+    line-height:24px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    outline-color:rgb(26, 32, 44);
+    outline-style:none;
+    outline-width:0px;
+    overflow-x:visible;
+    overflow-y:visible;
+    padding-bottom:16px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:16px;
+    text-align:start;
+    text-indent:0px;
+    text-rendering:auto;
+    text-shadow:none;
+    text-size-adjust:100%;
+    text-transform:none;
+    width:368px;
+    word-spacing:0px;
+    writing-mode:horizontal-tb;
+    -webkit-appearance:none;
+    -webkit-rtl-ordering:logical;
+}
+.btn
+{
+    align-items:center;
+background-attachment:scroll;
+background-clip:border-box;
+background-color:rgb(8, 62, 158);
+background-image:none;
+background-origin:padding-box;
+background-position-x:0px;
+background-position-y:0px;
+background-size:auto;
+border-bottom-color:rgb(226, 232, 240);
+border-bottom-right-radius:12px;
+border-bottom-style:solid;
+border-bottom-width:0px;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(226, 232, 240);
+border-left-style:solid;
+border-left-width:0px;
+border-right-color:rgb(226, 232, 240);
+border-right-style:solid;
+border-right-width:0px;
+border-top-color:rgb(226, 232, 240);
+border-top-left-radius:12px;
+border-top-right-radius:12px;
+border-top-style:solid;
+border-top-width:0px;
+box-sizing:border-box;
+color:rgb(255, 255, 255);
+cursor:pointer;
+display:flex;
+flex-direction:row;
+font-family:U8, sans-serif;
+font-size:14px;
+font-stretch:100%;
+font-style:normal;
+font-variant-caps:normal;
+font-variant-east-asian:normal;
+font-variant-ligatures:normal;
+font-variant-numeric:normal;
+font-weight:700;
+height:57px;
+justify-content:center;
+letter-spacing:normal;
+line-height:21px;
+margin-bottom:0px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+overflow-x:visible;
+overflow-y:visible;
+padding-bottom:16px;
+padding-left:40px;
+padding-right:40px;
+padding-top:20px;
+text-align:center;
+text-indent:0px;
+text-rendering:auto;
+text-shadow:none;
+text-size-adjust:100%;
+text-transform:uppercase;
+white-space:nowrap;
+width:368px;
+word-spacing:0px;
+writing-mode:horizontal-tb;
+
+}
+.a
+{
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font-size: .875rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    flex-direction: row;
+    white-space: nowrap;
+    text-align: center;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-family: Karla,sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom-right-radius: .75rem;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    background-color: transparent;
+    text-decoration: inherit;
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    cursor: pointer;
+    line-height: 1.5;
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    
+}

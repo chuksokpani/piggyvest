@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>PiggyVest | Dashboard</title>
+    <link rel = "icon" type = "image/png" href = "piggybank-NEW-Alone-400-min.webp">
+    <link rel = "stylesheet" href ="style.css">
+</head>
+<body>
+    <p>
+        <img class ="logo" src="piggyvest-logo.0b78a8fa.svg"
+        alt="PiggyVest"/>
+    </p>
+    <div class ="create-account-form">
+        
+        <form action = "login.php" method ="GET">
+            <h1 class="h1"> Create a Secure Account</h1>
+            <p class = p>Welcome to the future of Savings & Investments</p>
+            <p>
+                <label for="Full Name":>Full Name</label><br>
+                <input type="text" class= "input-box" placeholder ="Full Name"id="FName"><br>
+    
+                <label for="Email":>Email Address </label><br>
+                <input type="email" class= "input-box" placeholder ="Email Address"id="userEmail"><br>
+    
+                <label for="Phone":>Phone Number</label><br>
+                <input type="tel"class= "input-box" placeholder ="Phone Number"id="pNumber"><br>
+    
+                <label for="Password":>Password</label><br>
+                <input type="password"class= "input-box" placeholder="Password"><br>
+    
+                <label for="Referrer":> Referrer Phone or Promo Code (Optional)</label><br>
+                <input type="tel" class= "input-box" placeholder ="Referrer Phone or Promo Code"id="pCode"><br>
+    
+                <label for="About_Us":>How Did You Hear About Us?(Optional)</label><br>
+                <input list = "About_Us" name = "About" class= "input-box" class = "About_Us" placeholder ="Click to select">
+                <datalist class="About_Us" type ="hidden" id="About_Us" >
+                        <option value="Click to select" > </option>
+                        <option value="Facebook"></option>
+                        <option value="Twitter"></option>
+                        <option value="Instagram"></option>
+                        <option value="Friend/Family/Coworker Referral"></option>
+                        <option value="Google search"></option>
+                        <option value="Google playstore"></option>
+                        <option value="Online Blog"></option>
+                        <option value="Local Newspaper"></option>
+                        <option value="At an event"></option>
+                        <option value="Other"> </option> 
+                </datalist><br>
+    
+                <button type ="submit" class="btn"> CREATE ACCOUNT</button>
+                
+        </p>       
+        </form>
+        
+    </div>
+    <p>
+        <a class = "a" href = 'https://dashboard.piggyvest.com/login'> Already have an account? Log In </a> 
+    </p>
+    
+</body>
+</html>
